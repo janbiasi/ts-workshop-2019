@@ -1,0 +1,32 @@
+{
+    "name": "@workshop/b04",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/janbiasi/ts-workshop-2019.git"
+    },
+    "keywords": [
+        "ts",
+        "typescript",
+        "workshop"
+    ],
+    "scripts": {
+        "exercises": "run-s exercise:*",
+        "exercise:01": "run-lesson ./src/01-basics.ts"
+    },
+    "author": "Jan Biasi <biasijan@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/janbiasi/ts-workshop-2019/issues"
+    },
+    "homepage": "https://github.com/janbiasi/ts-workshop-2019#readme",
+    "devDependencies": {
+        "@workshop/config-ts": "*",
+        "@workshop/utils-run": "*",
+        "npm-run-all": "4.1.5",
+        "typescript": "3.4.5",
+        "@gondel/core": "0.1.0"
+    }
+}
