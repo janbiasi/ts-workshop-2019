@@ -1,0 +1,10 @@
+{
+    "extends": "./node_modules/@workshop/config-ts/tsconfig.json",
+    "compilerOptions": {
+        "checkJs": true,
+        "allowJs": true,
+        "declaration": false,
+        "rootDir": "./",
+        "baseUrl": "./"
+    }
+}

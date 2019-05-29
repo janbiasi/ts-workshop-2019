@@ -1,0 +1,15 @@
+{
+    "extends": "./node_modules/@namics/ts-config/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "noImplicitAny": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "dist"
+    ]
+}

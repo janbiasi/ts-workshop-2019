@@ -1,0 +1,36 @@
+{
+    "name": "@workshop/b02",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/janbiasi/ts-workshop-2019.git"
+    },
+    "keywords": [
+        "ts",
+        "typescript",
+        "workshop"
+    ],
+    "scripts": {
+        "exercises": "run-s exercise:*",
+        "exercise:01": "run-lesson ./src/01-interfaces.ts",
+        "exercise:02": "run-lesson ./src/02-types.ts",
+        "exercise:03": "run-lesson ./src/03-enums.ts",
+        "exercise:04": "run-lesson ./src/04-basic-types-none.ts",
+        "exercise:05": "run-lesson ./src/05-basic-types-array.ts",
+        "exercise:06": "run-lesson ./src/06-basic-types-object.ts"
+    },
+    "author": "Jan Biasi <biasijan@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/janbiasi/ts-workshop-2019/issues"
+    },
+    "homepage": "https://github.com/janbiasi/ts-workshop-2019#readme",
+    "devDependencies": {
+        "@workshop/config-ts": "*",
+        "@workshop/utils-run": "*",
+        "npm-run-all": "4.1.5",
+        "typescript": "3.4.5"
+    }
+}

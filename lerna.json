@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "configs/*",
+    "lessons/*",
+    "utils/*"
+  ],
+  "version": "independent"
+}

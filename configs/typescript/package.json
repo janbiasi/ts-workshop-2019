@@ -1,0 +1,27 @@
+{
+    "name": "@workshop/config-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tsconfig.json",
+    "scripts": {
+        "test": "exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/janbiasi/ts-workshop-2019.git"
+    },
+    "keywords": [
+        "ts",
+        "typescript",
+        "workshop"
+    ],
+    "author": "Jan Biasi <biasijan@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/janbiasi/ts-workshop-2019/issues"
+    },
+    "homepage": "https://github.com/janbiasi/ts-workshop-2019#readme",
+    "devDependencies": {
+        "@namics/ts-config": "0.3.0"
+    }
+}

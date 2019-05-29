@@ -1,0 +1,7 @@
+{
+    "extends": "./node_modules/@workshop/config-ts/tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "./",
+        "baseUrl": "./src"
+    }
+}

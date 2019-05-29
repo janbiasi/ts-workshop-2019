@@ -1,0 +1,30 @@
+{
+    "name": "@workshop/utils-run",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./index.js",
+    "bin": {
+        "run-lesson": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/janbiasi/ts-workshop-2019.git"
+    },
+    "keywords": [
+        "ts",
+        "typescript",
+        "workshop"
+    ],
+    "author": "Jan Biasi <biasijan@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/janbiasi/ts-workshop-2019/issues"
+    },
+    "homepage": "https://github.com/janbiasi/ts-workshop-2019#readme",
+    "devDependencies": {
+        "typescript": "3.4.5",
+        "ts-node": "8.2.0",
+        "@types/node": "12.0.3",
+        "@workshop/config-ts": "*"
+    }
+}
